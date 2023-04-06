@@ -66,6 +66,6 @@ class review(models.Model):
     review_message=models.TextField()
     boss=models.ForeignKey(User,default=None, on_delete=models.CASCADE, null=True)
 
-    # def __str__(self):
-    #     return self.boss.first_name
+    def __str__(self):
+        return self.boss.first_name
 
