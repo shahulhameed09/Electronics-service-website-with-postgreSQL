@@ -1,4 +1,4 @@
-# Electronics-service-website
+# Electronics-service-website-with-postgreSQL
 
 This is a very simple Electronics service website built with Django.
 
